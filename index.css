@@ -17,3 +17,14 @@ h1 {
 h2 {
     color: slateblue
 }
+.artObject {
+  max-width: 90%;
+  max-height: 20rem;
+  margin: 1rem;
+}
+#gallery {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
