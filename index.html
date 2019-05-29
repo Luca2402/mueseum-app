@@ -4,6 +4,8 @@
    <title>Museum Guide</title>
    <link rel="stylesheet" type="text/css" media="screen" href="index.css">
    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+   <script src="detail-page.js"></script>
+
 
  </head>
  <body>
@@ -34,6 +36,29 @@
       <img class="artObject" src='https://www.desmaakvanitalie.nl/wp-content/uploads/2018/08/la-pirma.jpg' />
 
       <h3>Made in Codaisseur</h3>
+
+      <section id='comments'>
+        <h2>Comments</h2>
+    
+        <section class='comment'>
+          <h3>Arien said:</h3>
+          <p>"This is definitely one of my favorites!"</p>
+        </section>
+      </section>
+    
+      <form onsubmit="submitComment(); return false">
+        <div class="formSection">
+          <label for="name">Name:</label>
+          <input type="text" id="name">
+        </div>
+        <div class="formSection">
+          <label for="msg">Message:</label>
+          <textarea id="msg"></textarea>
+        </div>
+        <div class="button">
+          <button type="default">Post your comment</button>
+        </div>
+      </form>
 
     
   </main>
