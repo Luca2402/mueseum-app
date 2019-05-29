@@ -44,5 +44,15 @@ h2 {
  h3 {
    margin: auto;
    color: red;
-   font-style: normal
+   font-style: normal;
  }
+
+ form {
+  color: #FFBA00
+ }
+
+ button {
+   color:red
+ }
+
+ 
