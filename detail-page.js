@@ -15,4 +15,5 @@ function submitComment(){
     comment.classList.add('comment')
     comment.appendChild(h3)
     comment.appendChild(p)
+    
 }
